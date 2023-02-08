@@ -4,6 +4,6 @@ export class CreateTeamMemberBody {
   @IsNotEmpty()
   name: string;
 
-  @IsNotEmpty
+  @IsNotEmpty()
   function: string;
 }
